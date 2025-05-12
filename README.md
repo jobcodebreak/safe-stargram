@@ -17,6 +17,7 @@ Safe-Stargram 프로젝트의 컨벤션 및 기획을 정리한 문서입니다.
   - style : Styled-components
 - BackEnd
   - Serverless (Firebase)
+  - PWA와 Service Worker를 통해 사용자 친화적 UX개선과 Web Push 기능 구현
 
 ## 폴더 구조
 
