@@ -1,3 +1,20 @@
+> 
+> ### Commit 컨벤션
+> 
+> 접두어로 add(코드 생성), update(기능 업데이트), fix(버그, 에러 수정)을 붙여 Commit Message를 작성합니다. 
+>
+> #### 작업 목록
+> 
+> - [⚙️ add] 로그인 폼 컴포넌트 추가
+> - [📝 update] 로그인 폼 유효성 검사 수정
+> - [🔧 fix] 로그인 버튼 클릭 오류 수정
+>
+> #### 추가 작업 (이슈 발생 시 기록)
+> 
+> - [🚨 ISSUE][fix] 로그인 완료 후 상태 초기화 문제 수정
+> - [🚨 HOTFIX][fix] 로그인 실패 에러메시지 표시 오류 수정
+> 
+
 # Safe-Stargram
 
 Safe-Stargram 프로젝트의 컨벤션 및 기획을 정리한 문서입니다.
@@ -76,23 +93,3 @@ Safe-Stargram 프로젝트의 컨벤션 및 기획을 정리한 문서입니다.
   - bool: is-, has-
   - event handler: handle{Event}-
   - function() => bool: check-
-
-
-### Commit 템플릿
-
-접두어로 add(코드 생성), update(기능 업데이트), fix(버그, 에러 수정)을 붙여 Commit Message를 작성합니다. 
-
-```md
-# 2025-05-10
-
-## 작업 목록
-
-- [add] 로그인 폼 컴포넌트 추가
-- [update] 로그인 폼 유효성 검사 수정
-- [fix] 로그인 버튼 클릭 오류 수정
-
-## 추가 작업 (이슈 발생 시 기록)
-
-- [ISSUE][fix] 로그인 완료 후 상태 초기화 문제 수정
-- [HOTFIX][fix] 로그인 실패 에러메시지 표시 오류 수정
-```
