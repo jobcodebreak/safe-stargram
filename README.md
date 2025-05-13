@@ -42,7 +42,7 @@ Safe-Stargram 프로젝트의 컨벤션 및 기획을 정리한 문서입니다.
   전역적으로 재상용 되는 것들 (예: 범용 hook, API, 버튼, 테마, 헬퍼 함수 등)을 정의합니다.
   - 버튼 : `/ui/Button/
 
-- `/shared/store`  
+- `/store`  
   **스토어**를 관리합니다.
 
 ```text
@@ -75,7 +75,7 @@ src/
 │   ├── api/                   # axios 인스턴스, 공통 API 설정
 │   └── config/                # 글로벌 상수, 환경 설정
 │
-└── shared/store/              # 스토어 관리
+└── store/                     # 스토어 관리
 ```
 
 ### 설계 원칙
